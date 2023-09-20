@@ -1,0 +1,38 @@
+:root{
+    --color-primary:black;
+    --color-secondary:white;
+    --bg-primary:white;
+    --bg-secondary:black;
+    --bg-body:rgb(244, 244, 244);
+    /* Paleta de colores */
+    --color-1:#890001;
+    --color-2:#9F0000;
+    --color-3:#D8A40E;
+    --color-4:#E1B43D;
+    --color-5:#000000;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: var(--bg-body);
+}
+
+.page{
+    padding: 20px 100px;
+}
+
+.page>h3{
+    margin-bottom: 20px;
+}
+
+.contentCharacters{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
